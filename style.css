@@ -6,12 +6,26 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+:root{
+    --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Nosifer', cursive;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
-    background-image: linear-gradient(to right,black,#EE4123);
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.961),#EE4123);
+    font-family: var(--fonte-padrao);
+    color: antiquewhite;
 }
 
 h1{
-    font-family: 'Nosifer', Arial;
+    font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 3em;
     text-align: center;
@@ -19,11 +33,4 @@ h1{
 }
 h2{
     color:#FFEA00;
-}
-div{
-border-radius: 10%;
-box-shadow: 3px 50px 300px #746a0044;
-width: 400px;
-padding: 10px;
-margin:auto;
 }
