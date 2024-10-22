@@ -9,28 +9,52 @@
 
 
 :root{
+    --cor0:#976927;
+    --cor1:#F29727;
+    --cor2:#EE4123;
+    --cor3:#46341f;
+    --cor4:#000000;
+    
     --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Nosifer', cursive;
 
 }
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 body{
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.961),#EE4123);
+    background-color: #000000;
     font-family: var(--fonte-padrao);
-    color: antiquewhite;
+    color: #f5eb66;
 }
-
-h1{
+header{
+    background-image: linear-gradient(to right,#0000003f,#EE4123);
+}
+header > h1{
+    color:var(--cor2);
+    font-family:var(--fonte-destaque) ;
+}
+header > p{
+    color: #f5eb66;
+}
+nav{
+    background-color:var(--cor2) ;
+}
+main{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.961),#EE4123);;
+}
+main h1{
     font-family: var(--fonte-destaque);
-    font-weight: normal;
-    font-size: 3em;
-    text-align: center;
-    color: red;
+    color:var(--cor2);
 }
-h2{
-    color:#FFEA00;
+main h2{
+    font-family:var(--fonte-padrao) ;
+    color:var(--cor2)
+}
+footer{
+    background-color: ;
+    color: whitesmoke;
 }
