@@ -26,7 +26,7 @@
 }
 
 body{
-    background-color: #000000;
+    background-color: var(--cor4);
     font-family: var(--fonte-padrao);
     color: #f5eb66;
 }
@@ -44,7 +44,11 @@ nav{
     background-color:var(--cor2) ;
 }
 main{
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.961),#EE4123);;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.961),#EE4123);
+    min-width: 280px;
+    max-width: 800px;
+    margin:auto;
+
 }
 main h1{
     font-family: var(--fonte-destaque);
@@ -53,6 +57,9 @@ main h1{
 main h2{
     font-family:var(--fonte-padrao) ;
     color:var(--cor2)
+}
+img{
+    width: 80%;
 }
 footer{
     background-color: black;
