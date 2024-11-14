@@ -26,16 +26,22 @@
 }
 
 body{
-    background-color: var(--cor4);
+    background-image: linear-gradient(to right, black,#EE4123,black);
     font-family: var(--fonte-padrao);
     color: #f5eb66;
 }
 header{
-    background-image: linear-gradient(to right,#0000003f,#EE4123);
+    background-image: linear-gradient(to right,#0000003f,rgb(144, 0, 0));
+    min-height:130px;
+    text-align:justify ;
+    padding-top: 20px;
 }
 header > h1{
-    color:var(--cor2);
+    color:rgb(234, 0, 0);
     font-family:var(--fonte-destaque) ;
+    font-size: 2em;
+    margin-bottom:20px ;
+    text-shadow:2px 2px 2px black;
 }
 header > p{
     color: #f5eb66;
